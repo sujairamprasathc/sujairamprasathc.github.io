@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+header {
+	padding: 10px 0 20px 0;
+	border-bottom: 1px solid;
+	text-align: center;
+}
+
+body {
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+}
+
+footer {
+	padding: 10px 0 20px 0;
+	border-top: 1px solid;
+}
+
+.h1 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 58px;
+}
+
+.gap {
+	padding: 50px 0 50px 0;
+}
