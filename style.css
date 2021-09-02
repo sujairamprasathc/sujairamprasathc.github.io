@@ -1,0 +1,46 @@
+body {
+	font-family: 'Source Code Pro', monospace;
+	margin: 0px;
+	padding: 0px;
+}
+
+section {
+	height: 100vh;
+}
+
+.scheme-1 {
+	color: #ebdbb2;			/* fg, fg1 */
+	background-color: #282828;	/* bg, bg0 */
+}
+
+.scheme-2 {
+	color: #ebdbb2;			/* fg2 */
+	background-color: #3c3836;	/* bg1 */
+}
+
+#about-me-text {
+	text-align: center;
+	font-size: 40px;
+
+	/* Vertical align text */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 8%;
+}
+
+.container-2 {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	text-align: center;
+}
+

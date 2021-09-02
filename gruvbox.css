@@ -1,0 +1,127 @@
+/* Gruvbox Color Scheme */
+
+
+.red-1 {
+	color: #cc241d;	/* red, 124 */
+}
+
+.red-2 {
+	color: #fb4934; /* red, 167 */
+}
+
+.green-1 {
+	color: #98971a; /* green, 106 */
+}
+
+.green-2 {
+	color: #b8bb26; /* green, 142 */
+}
+
+.yellow-1 {
+	color: #d79921; /* yellow, 172 */
+}
+
+.yellow-2 {
+	color: #fabd2f; /* yellow, 214 */
+}
+
+.blue-1 {
+	color: #458588; /* blue, 66 */
+}
+
+.blue-2 {
+	color: #83a598; /* blue, 109 */
+}
+
+.purple-1 {
+	color: #b16286; /* purple, 132 */
+}
+
+.purple-2 {
+	color: #d3869b; /* purple, 175 */
+}
+
+.aqua-1 {
+	color: #689d6a; /* aqua, 72 */
+}
+
+.aqua-2 {
+	color: #8ec07c; /* aqua, 108 */
+}
+
+.gray {
+	color: #a89984; /* gray, 246 */
+}
+
+.fg {
+	color: #ebdbb2; /* fg, 223 */
+}
+
+.orange-1 {
+	color: #d65d0e; /* orange, 166 */
+}
+
+.orange-2 {
+	color: #fe8019; /* orange, 208 */
+}
+
+
+
+/* Gruvbox as Background Colours */
+
+
+.bg-red-1 {
+	background-color: #cc241d;	/* red, 124 */
+}
+
+.bg-red-2 {
+	background-color: #fb4934; /* red, 167 */
+}
+
+.bg-green-1 {
+	background-color: #98971a; /* green, 106 */
+}
+
+.bg-green-2 {
+	background-color: #b8bb26; /* green, 142 */
+}
+
+.bg-yellow-1 {
+	background-color: #d79921; /* yellow, 172 */
+}
+
+.bg-yellow-2 {
+	background-color: #fabd2f; /* yellow, 214 */
+}
+
+.bg-blue-1 {
+	background-color: #458588; /* blue, 66 */
+}
+
+.bg-blue-2 {
+	background-color: #83a598; /* blue, 109 */
+}
+
+.bg-purple-1 {
+	background-color: #b16286; /* purple, 132 */
+}
+
+.bg-purple-2 {
+	background-color: #d3869b; /* purple, 175 */
+}
+
+.bg-aqua-1 {
+	background-color: #689d6a; /* aqua, 72 */
+}
+
+.bg-aqua-2 {
+	background-color: #8ec07c; /* aqua, 108 */
+}
+
+.bg-gray {
+	background-color: #a89984; /* gray, 246 */
+}
+
+.bg-fg {
+	background-color: #ebdbb2; /* fg, 223 */
+}

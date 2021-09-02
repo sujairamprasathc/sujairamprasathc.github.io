@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178456040-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-178456040-1');
+		</script>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Sujai Ram Prasath C</title>
+
+		<!-- Stylesheets -->
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="gruvbox.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	</head>
+	<body>
+		<section id="about" class="scheme-1">
+			<p id="about-me-text">
+				Hello. I am <span class="red-2">Sujai Ram Prasath C</span>
+				<br>
+				I'm a software engineer at KLA.
+				<!-- <br>
+	    			I'm curious about algorithms, high-performance computing and software engineering. -->
+			</p>
+		</section>
+
+		<section id="stats" class="scheme-2">
+			<div class="container">
+				<h1 class="yellow-1">
+					Quick stats for those who want to hire me
+				</h1>
+				<div id="codeforces-rating">
+				</div>
+				<div id="codechef-rating">
+				</div>
+				<div id="hackerrank-rating">
+				</div>
+				<div id="tenth-mark">
+					10th standard - Emerald Valley Public School (CBSE): 10 / 10 CGPA
+				</div>
+				<div id="twelfth-mark">
+					12th standard - Emerald Valley Public School (CBSE): 94.4%
+				</div>
+				<div id="college-mark">
+					PSG College of Technology - CGPA 8 / 10
+				</div>
+			</div>
+		</section>
+
+		<script>
+			var codeforcesUrl = "https://codeforces.com/api/user.info?handles=sujairamprasathc";
+			fetch(codeforcesUrl).then(response => {
+				return response.json();
+			}).then(data => {
+				document.getElementById("codeforces-rating").innerHTML = "Codeforces Rating: " + data["result"][0]["rating"];
+				console.log(data);
+			}).catch(err => {
+				console.log("Unable to fetch codeforces ratings");
+			});
+		</script>
+
+		<script>
+			var codechefUrl = "https://competitive-coding-api.herokuapp.com/api/codechef/csrp";
+			fetch(codechefUrl).then(response => {
+				return response.json();
+			}).then(data => {
+				document.getElementById("codechef-rating").innerHTML = "Codechef Rating: " + data["rating"];
+				console.log(data);
+			}).catch(err => {
+				console.log("Unable to fetch codechef ratings");
+			});
+		</script>
+
+		<script>
+/*			var hackerrankUrl = "https://competitive-coding-api.herokuapp.com/api/hackerrank/sujairamprasathc";
+			fetch(hackerrankUrl).then(response => {
+				return response.json();
+			}).then(data => {
+				document.getElementById("hackerrank-rating").innerHTML = "Hackerrank Rating: " + data["rating"];
+				console.log(data);
+			}).catch(err => {
+				console.log("Unable to fetch hackerrank ratings");
+			});*/
+		</script>
+
+
+
+
+
+		<section id="skills-section" class="scheme-1">
+			<div class="container">
+				<h1 class="aqua-1">Top Skills</h1>
+				<ul>
+					<li>
+						C++
+						<div class="progress">
+							<div class="progress-bar bg-blue-2" style="width:80%" />
+						</div>
+					</li>
+					<li>
+						Linux
+						<div class="progress">
+							<div class="progress-bar bg-blue-2" style="width:80%" />
+						</div>
+					</li>
+					<li>
+						Kubernetes
+						<div class="progress">
+							<div class="progress-bar bg-blue-2" style="width:50%" />
+						</div>
+					</li>
+					<li>
+						Algorithms
+						<div class="progress">
+							<div class="progress-bar bg-blue-2" style="width:50%" />
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="container">
+				<h1 class="aqua-1">Tools & Technologies</h1>
+				<ul>
+					<li>Docker</li>
+					<li>Kubernetes</li>
+					<li>Prometheus</li>
+					<li>Grafana</li>
+				</ul>
+			</div>
+
+			<div class="container-2">
+				<h1><a href="https://sujairamprasathc.github.io/skills" class="purple-1">Detailed breakdown of my skills</a></h1>
+			</div>
+		</section>
+
+
+
+		<!-- Timeline -->
+
+
+
+		<section id="timeline-section" class="scheme-2">
+			<div class="container">
+				<h1 class="orange-1">Timeline</h1>
+				<ul>
+					<li>Emerald Valley Public School (High School)</li>
+					<li>PSG College of Technology (2017-2022)</li>
+					<div>
+						Relevant Coursework
+						<ul>
+							<li>Data Structures & Algorithms</li>
+							<li>Advanced Data Structures</li>
+							<li>Design and Analysis of Algorithms</li>
+							<li>Object-Oriented Programming</li>
+							<li>Computer Architecture</li>
+							<li>Operating Systems</li>
+							<li>Parallel & Distributed Computing</li>
+							<li>Software Engineering</li>
+							<li>Software Patterns</li>
+							<li>Database Management Systems</li>
+						</ul>
+					</div>
+				</ul>
+			</div>
+		</section>
+
+
+
+		<!-- Projects -->
+
+
+
+		<section id="projects-section" class="scheme-1">
+			<div class="container">
+				<h1 class="red-2">Projects</h1>
+				<ul>
+					<li><a href="https://github.com/sujairamprasathc/Desktop-Search-Engine" class="blue-1">Desktop Search Engine</a></li>
+					<li><a href="https://github.com/sujairamprasathc/Chatter-Box" class="blue-1">Chatter Box</a></li>
+					<li><a href="https://github.com/sujairamprasathc/Flappy-Birds" class="blue-1">Flappy Birds</a></li>
+					<li><a href="https://github.com/sujairamprasathc/mail-client" class="blue-1">Marks Mailer</a></li>
+					<li><a href="https://github.com/sujairamprasathc/CSRP-Media-Player" class="blue-1">Media Player</a></li>
+					<li><a href="https://github.com/sujairamprasathc/commerce" class="blue-1">Commerce Website</a></li>
+					<li><a href="https://github.com/sujairamprasathc/sujairamprasathc.github.io" class="blue-1">Portfolio Website</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="contact-section" class="scheme-2">
+			<div class="container">
+				<h1 class="yellow-1">Contact</h1>
+				<a href="https://www.linkedin.com/in/sujai-ram-prasath-chandrasekar/" class="fg">LinkedIn</a>
+				<a href="https://www.instagram.com/____csrp____/" class="fg">Instagram</a>
+				<a href="mailto://sujairamprasathc@gmail.com" class="fg">Email</a>
+			</div>
+		</section>
+
+
+
+		<!-- <iframe width="100%" frameborder="0"
+			style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px"
+			src="https://observablehq.com/embed/14b7969f90289d4e?cells=chart"></iframe> -->
+	</body>
+</html>
