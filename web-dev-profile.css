@@ -1,0 +1,22 @@
+/* Styling for web-dev profile page */
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card-container {
+	background-color: #3c3836;	/* bg1 */
+	width: 300px;
+	margin: 10px;
+	padding: 10px;
+}
+
+ul {
+	padding-left: 10px;
+}
+
+li {
+	margin-bottom: 7px;
+}
