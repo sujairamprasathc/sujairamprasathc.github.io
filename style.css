@@ -10,12 +10,14 @@ section {
 
 .scheme-1 {
 	color: #ebdbb2;			/* fg, fg1 */
-	background-color: #282828;	/* bg, bg0 */
+	background-color: #1d2021	/* bg0_h */
+	/*background-color: #282828;	/* bg, bg0 */
 }
 
 .scheme-2 {
 	color: #ebdbb2;			/* fg2 */
-	background-color: #3c3836;	/* bg1 */
+	background-color: #282828;	/* bg0 */
+	/*background-color: #3c3836;	/* bg1 */
 }
 
 #about-me-text {
@@ -43,4 +45,3 @@ section {
 	padding-top: 3%;
 	text-align: center;
 }
-
