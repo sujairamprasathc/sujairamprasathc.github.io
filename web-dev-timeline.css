@@ -1,0 +1,24 @@
+h1 {
+	text-align: center;
+}
+
+ul {
+	width: 75%;
+	margin: auto;
+}
+
+a:link {
+	color: #d3869b;	/* purple-2, 175 */
+}
+
+a:visited {
+	color: #d3869b;	/* purple-2, 175 */
+}
+
+a:hover {
+	color: #83a598;	/* blue-2, 109 */
+}
+
+a:active {
+	color: #83a598;	/* blue-2, 109 */
+}
