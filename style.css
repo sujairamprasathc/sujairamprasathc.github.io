@@ -5,7 +5,7 @@ body {
 }
 
 section {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .scheme-1 {
@@ -20,17 +20,14 @@ section {
 	/*background-color: #3c3836;	/* bg1 */
 }
 
-#about-me-text {
+#about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 	text-align: center;
 	font-size: 40px;
-
-	/* Vertical align text */
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
+	padding: 10px;
 }
 
 .container {
